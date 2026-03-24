@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -7,33 +8,36 @@ const About = () => {
         <div className="design-box">
           <img src="assets/images/design-2.png" alt="" />
         </div>
+
         <div className="container">
           <div className="row">
+
             <div className="col-md-6">
               <div className="detail-box">
+
                 <div className="heading_container">
-                  <h2>
-                    About Jewellery Shop
-                  </h2>
+                  <h2>About Jewellery Shop</h2>
                 </div>
+
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud
+                  Lorem ipsum dolor sit amet...
                 </p>
+
                 <div>
-                  <a href="#">
+                  <Link to="/contact">
                     Read More
-                  </a>
+                  </Link>
                 </div>
+
               </div>
             </div>
+
             <div className="col-md-6">
               <div className="img-box">
                 <img src="assets/images/about.jpg" alt="" />
               </div>
             </div>
+
           </div>
         </div>
       </section>
