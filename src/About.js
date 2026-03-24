@@ -4,7 +4,7 @@ const About =() =>{
         <>
         <section class="about_section layout_padding2-top layout_padding-bottom">
         <div class="design-box">
-          <img src="assest/images/design-2.png" alt=""/>
+          <img src="assests/images/design-2.png" alt=""/>
         </div>
         <div class="container">
           <div class="row">
@@ -30,7 +30,7 @@ const About =() =>{
             </div>
             <div class="col-md-6">
               <div class="img-box">
-                <img src="assest/images/about.jpg" alt=""/>
+                <img src="assests/images/about.jpg" alt=""/>
               </div>
             </div>
           </div>
