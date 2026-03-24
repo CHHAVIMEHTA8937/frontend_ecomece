@@ -9,10 +9,10 @@ const Header = () => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg custom_nav-container">
 
-              <a className="navbar-brand" href="/">
+              <Link className="navbar-brand" to="/">
                 <img src="assets/images/logo.png" alt="" />
                 <span>Lodge</span>
-              </a>
+              </Link>
 
               <button
                 className="navbar-toggler"
@@ -28,32 +28,32 @@ const Header = () => {
                   <ul className="navbar-nav">
 
                     <li className="nav-item active">
-                      <a className="nav-link" href="/Home">Home</a>
+                      <Link className="nav-link" to="/Home">Home</Link>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link" href="/about">About</a>
+                      <Link className="nav-link" to="/about">About</Link>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link" href="/jewellery">Jewellery</a>
+                      <Link className="nav-link" to="/jewellery">Jewellery</Link>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link" href="/contact">Contact us</a>
+                      <Link className="nav-link" to="/contact">Contact us</Link>
                     </li>
 
                     <li className="nav-item">
-                      <a className="nav-link" href="/login">Login</a>
+                      <Link className="nav-link" to="/login">Login</Link>
                     </li>
 
                   </ul>
                 </div>
 
                 <div className="quote_btn-container">
-                  <a href="#">
+                  <button>
                     <img src="assets/images/cart.png" alt="" />
-                  </a>
+                  </button>
                 </div>
 
               </div>
@@ -61,9 +61,7 @@ const Header = () => {
           </div>
         </header>
 
-        {/* FIXED SECTION */}
         <section className="slider_section position-relative">
-
           <div className="design-box">
             <img src="assets/images/design-1.png" alt="" />
           </div>
@@ -77,7 +75,7 @@ const Header = () => {
                   <h1>Jewellery</h1>
                   <p>Lorem ipsum dolor sit amet...</p>
 
-                  <a href="#">Shop Now</a>
+                  <Link to="/jewellery">Shop Now</Link>
                 </div>
               </div>
 
@@ -89,53 +87,7 @@ const Header = () => {
 
             </div>
           </div>
-
         </section>
-
-      </div>
-
-      <div className="item_section layout_padding2">
-        <div className="container">
-          <div className="item_container">
-
-            <div className="box">
-              <div className="price">
-                <h6>Best PRICE</h6>
-              </div>
-              <div className="img-box">
-                <img src="assets/images/earrings.png" alt="" />
-              </div>
-              <div className="name">
-                <h5>Bracelet</h5>
-              </div>
-            </div>
-
-            <div className="box">
-              <div className="price">
-                <h6>Best PRICE</h6>
-              </div>
-              <div className="img-box">
-                <img src="assets/images/multiplejewellery.png" alt="" />
-              </div>
-              <div className="name">
-                <h5>Ring</h5>
-              </div>
-            </div>
-
-            <div className="box">
-              <div className="price">
-                <h6>Best PRICE</h6>
-              </div>
-              <div className="img-box">
-                <img src="assets/images/nacklace.png" alt="" />
-              </div>
-              <div className="name">
-                <h5>Earings</h5>
-              </div>
-            </div>
-
-          </div>
-        </div>
       </div>
     </>
   );
